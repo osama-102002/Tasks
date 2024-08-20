@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+}
+
+.head {
+    margin: 10px auto;
+    text-align: center;
+    width: 25%;
+}
+
+.head p {
+    font-size: 15px;
+    color: rgb(251, 101, 196);
+    margin-bottom: 5px;
+}
+
+.head h1 {
+    color: #00275b;
+    font-weight: bolder;
+    font-size: 29px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 10px;
+    gap: 20px;
+}
+
+.doctor-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.doctor-info img {
+    width: 300px;
+    height: auto;
+}
+
+.doctor-name {
+    margin: 15px 15px;
+}
+
+.doctor-name p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #00275b;
+    margin-bottom: 10px;
+}

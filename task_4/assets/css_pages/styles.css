@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.header {
+  width: 60%;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 36px;
+  color: gray;
+}
+
+span {
+  color: gold;
+}
+
+hr {
+  margin-top: 10px;
+  width: 20%;
+  height: 5px;
+  background-color: gold;
+  margin-bottom: 60px;
+}
+
+img {
+  width: 400px;
+  height: 100%;
+}
+
+.img {
+  box-shadow: 8px 8px 2px gold;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+.button {
+  background-color: gold;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.paragraphOne,
+.paragraphTwo {
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+i {
+  padding: 15px;
+  color: gold;
+}
+
+.p {
+  margin-right: 55px;
+}
+
+.edit {
+  white-space: nowrap;
+
+}

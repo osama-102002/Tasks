@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.head {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.head p {
+  margin: 10px auto;
+  color: rgb(1, 90, 115);
+  font-size: 20;
+  font-weight: 600;
+}
+
+hr {
+  width: 8%;
+  margin: 25px auto;
+  height: 3px;
+  background-color: rgb(3, 176, 176);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+img {
+  width: 20vw;
+  height: 50vh;
+  border-radius: 7%;
+}
+
+.employee {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.plus-icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  background-color: white;
+  rotate: 45deg;
+  right: 19px;
+  top: 302px;
+}
+
+i {
+  rotate: -45deg;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.job {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(2, 76, 97);
+}

@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 50px;
+}
+
+.testimonials h2 {
+  font-size: 2em;
+  margin-bottom: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+.test {
+  position: relative;
+  background-color: #434c60;
+  color: white;
+  padding: 20px;
+
+  width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 300px;
+}
+
+.test img {
+  position: absolute;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 0px;
+  top: -50px;
+  left: 233px;
+  border: 3px solid #434c60;
+}
+
+.stars {
+  color: #ffd700;
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.test h3 {
+  margin: 30px 0 5px;
+}
+
+.test p:last-of-type {
+  font-style: italic;
+  color: #ddd;
+}
+
+p {
+  line-height: 2;
+}
+
+.dot {
+  width: 75px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px auto;
+}
+
+.red,
+.white {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+}
+.white {
+  border: 1px solid red;
+}
+
+.quote-icon {
+  font-size: 50px;
+  position: absolute;
+  background-color: rgb(244, 251, 251);
+  color: red;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
